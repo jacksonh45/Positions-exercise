@@ -88,11 +88,13 @@ body {
     position: absolute;
     bottom: 0px;
     right: 0px;
+    z-index: 2;
 }
 #reality{
     position: absolute;
     bottom: 150px;
     right: 0px;
+    z-index: 4;
 }
 #mind{
     position: fixed;
@@ -102,9 +104,14 @@ body {
     position: fixed;
     right: 0px;
     top: 0px;
+    z-index: 3 ;
 }
 h1{
     position: sticky;
     top: 0;
     z-index: 2;
+}
+h2{
+    position: sticky;
+    top: 65px;
 }
